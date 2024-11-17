@@ -1,0 +1,113 @@
+body {
+    font-family: monospace;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.a-navbar {
+    color: rgb(10, 6, 6);
+    text-decoration: none;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+
+}
+
+.container {
+        height: 70%;
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: grey;
+        border-radius: 8px;
+        box-shadow: -17px 15px 5px 4px rgba(91,138,131,0.75);
+        -webkit-box-shadow: -17px 15px 5px 4px rgba(91,138,131,0.75);
+        -moz-box-shadow: -17px 15px 5px 4px rgba(91,138,131,0.75);
+        
+        /* Properti tambahan untuk memusatkan form */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+
+
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    
+
+    
+}
+
+input[type="text"], input[type="number"] {
+    width: 50%;
+    height: 505;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button:hover {
+    background-color: rgb(55, 65, 73);
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+    align-items: center;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
